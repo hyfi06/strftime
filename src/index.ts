@@ -127,5 +127,4 @@ function strftime(
   return strTime;
 }
 
-export { zeroFiller };
-export default strftime;
+export { strftime, zeroFiller }

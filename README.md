@@ -5,7 +5,7 @@ Convert datetime to string with a format template and locales.
 ## Install
 
 ```bash
-npm install --save @hyfi06/html2pdf
+npm install --save @hyfi06/strftime
 ```
 
 ## Functions

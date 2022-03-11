@@ -23,5 +23,5 @@ test('test all directives implemented with es-MX locate identifier', () => {
   expect(strftime(date, '%Z', 'es-MX')).toBe('CST');
   expect(strftime(date, '%c', 'es-MX')).toBe('vie, 11 de mar de 2022 02:02:02');
   expect(strftime(date, '%x', 'es-MX')).toBe('11/3/2022');
-  expect(strftime(date, '%x', 'es-MX')).toBe('02:02:02');
+  expect(strftime(date, '%X', 'es-MX')).toBe('02:02:02');
 });
